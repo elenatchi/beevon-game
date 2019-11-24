@@ -1,0 +1,67 @@
+body {
+    margin: 60px auto;
+    width: 60%;
+    background-color: #F1D05A;
+    background-image: url("/images/honeycombwhite.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+}
+nav ul, footer ul {
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #CA9A51;
+}
+a:hover {
+    text-decoration: underline;
+}
+img{
+  max-width: 70%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+    font-size: 2em;
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    color: white;
+    -webkit-text-stroke: 1.5px #CA9A51;
+    margin-bottom : -20px;
+}
+p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    color: #CA9A51;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #CA9A51;
+    margin-bottom : 40px;
+}
+footer {
+    border-top: 1px solid #CA9A51;
+    font-size: .8em;
+    font-family:'Tahoma', 'Geneva', 'Sans-Serif';
+    color: #CA9A51;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}

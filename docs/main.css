@@ -2,6 +2,10 @@ body {
     margin: 60px auto;
     width: 60%;
     background-color: #F1D05A;
+    background-image: url("/images/honeycombwhite.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
 }
 nav ul, footer ul {
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
@@ -19,6 +23,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+img{
+  max-width: 60%;
 }
 h1 {
     font-size: 2em;

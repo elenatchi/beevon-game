@@ -15,12 +15,8 @@ body {
   flex: 33.33%;
   padding: 5px;
 }
-a {
-    text-decoration: none;
-    color: #CA9A51;
-}
-a:hover {
-    text-decoration: underline;
+img {
+  border-radius: 10%;
 }
 .moderate{
   max-width: 70%;
@@ -60,18 +56,10 @@ p {
     display : block;
 }
 div{    margin-top : 20px;}
+
 footer {
     border-top: 1px solid #CA9A51;
     font-size: 1em;
     font-family:'Tahoma', 'Geneva', 'Sans-Serif';
     color: #CA9A51;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
